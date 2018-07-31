@@ -1,0 +1,25 @@
+{
+  "name": "tripplanningcore",
+  "version": "1.0.0",
+  "description": "Trip app Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloGV/TripPlanningCore.git"
+  },
+  "keywords": [
+    "Redux"
+  ],
+  "author": "Marcelo Vallejos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloGV/TripPlanningCore/issues"
+  },
+  "homepage": "https://github.com/MarceloGV/TripPlanningCore#readme",
+  "dependencies": {
+    "react-redux": "^5.0.7"
+  }
+}
