@@ -33,5 +33,5 @@ function trips(state = [], action) {
 const tripsApp = combineReducers({
   trips
 });
-​
+
 export default tripsApp;
