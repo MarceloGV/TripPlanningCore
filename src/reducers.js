@@ -29,7 +29,7 @@ function trips(state = [], action) {
       return state
   }
 }
-​
+
 const tripsApp = combineReducers({
   trips
 });
