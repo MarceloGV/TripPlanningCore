@@ -14,7 +14,7 @@ function trips(state = [], action) {
           completed: false
         }
       ]
-    case GET_TRIPS:
+    case 'GET_TRIPS':
       return [
         ...state,
         {
