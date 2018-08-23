@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 import {
   CREATE_TRIP,
-  GET_TRIP
+  GET_TRIPS
 } from './actions';
 
 function trips(state = [], action) {
@@ -14,7 +14,7 @@ function trips(state = [], action) {
           completed: false
         }
       ]
-    case 'GET_TRIPS':
+    case GET_TRIPS:
       return [
         ...state,
         {

@@ -1,8 +1,8 @@
 export const GET_TRIPS = 'GET_TRIPS';
 export const CREATE_TRIP = 'CREATE_TRIP';
 
-export function getTrips(ids) {
-  return { type: GET_TRIPS, ids }
+export function getTrips() {
+  return { type: GET_TRIPS }
 }
 
 export function createTrip(trip) {
