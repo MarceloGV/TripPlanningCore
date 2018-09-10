@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 import {
   CREATE_TRIP,
-  GET_TRIPS
+  GET_TRIPS,
+  REQUEST_POSTS,
+  RECEIVE_POSTS
 } from './actions';
 
 function trips(state = [], action) {
